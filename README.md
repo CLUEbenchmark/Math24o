@@ -1,5 +1,7 @@
 # Math24o
 
+Math24o benchmarks LLMs on Chinese high school Olympiad math using the 2024 prelims.
+
 Math24o是一个中文题目的数学推理测评基准，用于评估大型语言模型在「高中奥林匹克数学竞赛」级别的数学推理能力。
 
 该测评使用2024年预赛试题，可通过程序自动判断模型答案与参考答案是否一致，以客观评估模型的正确率。
