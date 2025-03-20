@@ -12,11 +12,17 @@ Math24o是一个中文题目的数学推理测评基准，用于评估大型语�
 
 # 获得模型回复及提示词 Prompts
 
-指定提示词：
+Full Input: <question>+"\n" + <special_prompt>
 
-  请把你的最终答案放在\boxed{}内，即使用\boxed{你的最终答案}这个格式，注意\boxed{}里只能是整数或小数。
+指定提示词（Special Prompt Used）：
 
-完整示例：
+   请把你的最终答案放在\boxed{}内，即使用\boxed{你的最终答案}这个格式，注意\boxed{}里只能是整数或小数。
+
+Special Prompt Used translated as Engish:
+   
+   Please put your final answer in \boxed{}, using the format \boxed{your final answer}. Note that only integers or decimals are allowed inside \boxed{}.
+
+完整示例（Example）：
 
   设函数 $$f : \{1, 2, 3 \} \to\{2, 3, 4 \}$$ 满足 $$f \left( f \left( x \right)-1 \right)=f \left( x \right)$$ ，则这样的函数有多少个？
 
