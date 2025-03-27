@@ -68,7 +68,7 @@ def auto_gene_evaluation_result():
     id_list = questions_dataframe['id']
     question_list = questions_dataframe['questions']
     ref_answer_list = questions_dataframe['ref_answers']
-    mod_answer_list = mod_answers_dataframe['mod_answers']
+    mod_answer_list = mod_answers_dataframe['model_answers']
 
     output_dataframe = pd.DataFrame({})
 
